@@ -59,5 +59,5 @@ clean:
 
 # Compile in debug mode
 debug:
-	make DEBUG="-DDEBUG -g" FLAGS= all
+	make DEBUG="-DDEBUG -g" FLAGS= KMEANS_seq
 

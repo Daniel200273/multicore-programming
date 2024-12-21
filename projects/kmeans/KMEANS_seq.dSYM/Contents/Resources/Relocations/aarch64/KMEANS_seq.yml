@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     KMEANS_seq
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _showFileError, symObjAddr: 0x0, symBinAddr: 0x10000288C, symSize: 0x110 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _showFileError, symObjAddr: 0x0, symBinAddr: 0x10000288C, symSize: 0x110 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _readInput, symObjAddr: 0x110, symBinAddr: 0x10000299C, symSize: 0x190 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _readInput2, symObjAddr: 0x2A0, symBinAddr: 0x100002B2C, symSize: 0x150 }
+  - { offsetInCU: 0x1CA, offset: 0x1CA, size: 0x8, addend: 0x0, symName: _writeResult, symObjAddr: 0x3F0, symBinAddr: 0x100002C7C, symSize: 0xC8 }
+  - { offsetInCU: 0x238, offset: 0x238, size: 0x8, addend: 0x0, symName: _initCentroids, symObjAddr: 0x4B8, symBinAddr: 0x100002D44, symSize: 0xA8 }
+  - { offsetInCU: 0x2B0, offset: 0x2B0, size: 0x8, addend: 0x0, symName: _euclideanDistance, symObjAddr: 0x560, symBinAddr: 0x100002DEC, symSize: 0xB0 }
+  - { offsetInCU: 0x31E, offset: 0x31E, size: 0x8, addend: 0x0, symName: _zeroFloatMatriz, symObjAddr: 0x610, symBinAddr: 0x100002E9C, symSize: 0xA0 }
+  - { offsetInCU: 0x37A, offset: 0x37A, size: 0x8, addend: 0x0, symName: _zeroIntArray, symObjAddr: 0x6B0, symBinAddr: 0x100002F3C, symSize: 0x58 }
+  - { offsetInCU: 0x3BA, offset: 0x3BA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x708, symBinAddr: 0x100002F94, symSize: 0xB44 }
+...
